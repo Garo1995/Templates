@@ -63,6 +63,11 @@
     -webkit-mask-image: url(arrowDown.svg);
 }
 
+.star-rating{
+    mask-image: url(star-rating.svg);
+    -webkit-mask-image: url(star-rating.svg);
+}
+
 
 
 

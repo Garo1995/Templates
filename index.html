@@ -178,7 +178,7 @@
                 <div class="sample-present-flex G-flex">
                     <div class="present-new G-center">Новое</div>
                     <div class="present-names G-center">
-                        <img loading="lazy" src="assets/images/lin-tert.png" alt="" width="18" height="18">
+                        <img loading="lazy" src="assets/images/lin-tert.png" alt="" width="16" height="16">
                         Презентация
                     </div>
                     <div class="present-names G-center">
@@ -186,7 +186,7 @@
                         Маркетинг
                     </div>
                     <div class="present-names G-center">
-                        <img loading="lazy" src="assets/images/qanon.png" alt="" width="18" height="18">
+                        <img loading="lazy" src="assets/images/qanon.png" alt="" width="16" height="16">
                          16:9
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                 </div>
 
                 <div class="temp-hrefs G-flex">
-                    <a href="#"><i class="icon download-box"></i></a>
+                    <a href="#" class="temp-hrefs-active"><i class="icon download-box"></i></a>
                     <a href="#"><i class="icon icon-copy"></i></a>
                     <a href="#"><i class="icon icon-share"></i></a>
                     <a href="#"><i class="icon icon-cep"></i></a>
@@ -444,14 +444,14 @@
             <div class="characterist-left">
                 <div class="characterist-menu">
                     <ul>
-                        <li><a href="#" class="active-charact">Описание</a></li>
-                        <li><a href="#">Что включено</a></li>
-                        <li><a href="#">Инструкции</a></li>
-                        <li><a href="#">Лицензия</a></li>
-                        <li><a href="#">Брендинг</a></li>
+                        <li><a href="#description" class="active-charact">Описание</a></li>
+                        <li><a href="#included">Что включено</a></li>
+                        <li><a href="#instructions">Инструкции</a></li>
+                        <li><a href="#license">Лицензия</a></li>
+                        <li><a href="#branding">Брендинг</a></li>
                     </ul>
                 </div>
-                <div class="characterist-content G-flex-column">
+                <div id="description" class="characterist-content G-flex-column">
                     <span class="characterist-name">ОПИСАНИЕ</span>
                     <div class="characterist-text">
                         <h4>Детальное описание шаблона</h4>
@@ -511,7 +511,7 @@
 
                 </div>
 
-                <div class="characterist-content G-flex-column">
+                <div id="included" class="characterist-content G-flex-column">
                     <span class="characterist-name">ЧТО ВКЛЮЧЕНО</span>
 
                     <h4>Содержание шаблона</h4>
@@ -550,7 +550,7 @@
 
                 </div>
 
-                <div class="characterist-content G-flex-column">
+                <div id="instructions" class="characterist-content G-flex-column">
                     <span class="characterist-name">КАК ИСПОЛЬЗОВАТЬ ШАБЛОН</span>
 
                     <h4>Инструкция по использованию</h4>
@@ -588,7 +588,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="characterist-content G-flex-column">
+                <div id="license" class="characterist-content G-flex-column">
                     <span class="characterist-name">ЛИЦЕНЗИЯ И ПРАВА ИСПОЛЬЗОВАНИЯ</span>
                     <div class="what-allowed">
                         <span>
@@ -633,7 +633,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="characterist-content G-flex-column">
+                <div id="branding" class="characterist-content G-flex-column">
                     <span class="characterist-name">БРЕНДИНГ И СТИЛЬ</span>
                     <h4>Дизайн-наполнение</h4>
                     <div class="design-content-flex G-flex">
@@ -800,12 +800,12 @@
                     </div>
                     <div class="free-template-names">
                         <ul>
-                            <li>— <img loading="lazy" src="assets/images/lin-tert.png" alt="" width="18" height="18"> Полный доступ ко всем слайдам</li>
-                            <li>— <img loading="lazy" src="assets/images/description.png" alt="" width="18" height="18"> Коммерческая лицензия</li>
-                            <li>— <img loading="lazy" src="assets/images/title.png" alt="" width="18" height="18"> Неограниченные скачивания</li>
-                            <li>— <img loading="lazy" src="assets/images/pptx.png" alt="" width="18" height="18"> Все форматы экспорта</li>
-                            <li>— <img loading="lazy" src="assets/images/mess.png" alt="" width="18" height="18"> Приоритетная поддержка</li>
-                            <li>— <img loading="lazy" src="assets/images/compareIcon1.png" alt="" width="18" height="18"> Обновления шаблонов</li>
+                            <li>— <img loading="lazy" src="assets/images/lin-tert.png" alt="" width="20" height="20"> Полный доступ ко всем слайдам</li>
+                            <li>— <img loading="lazy" src="assets/images/description.png" alt="" width="20" height="20"> Коммерческая лицензия</li>
+                            <li>— <img loading="lazy" src="assets/images/title.png" alt="" width="20" height="20"> Неограниченные скачивания</li>
+                            <li>— <img loading="lazy" src="assets/images/pptx.png" alt="" width="20" height="20"> Все форматы экспорта</li>
+                            <li>— <img loading="lazy" src="assets/images/mess.png" alt="" width="20" height="20"> Приоритетная поддержка</li>
+                            <li>— <img loading="lazy" src="assets/images/compareIcon1.png" alt="" width="20" height="20"> Обновления шаблонов</li>
                         </ul>
                     </div>
                     <button class="btn-start G-align-center">
@@ -1697,7 +1697,7 @@
     <div class="modal-content">
         <div class="modal-form">
             <div class="close"></div>
-            <h3> <img loading="lazy" src="assets/images/titl-pap.png" alt="" width="18" height="18"> Оставьте отзыв на этот шаблон!</h3>
+            <h3> <img loading="lazy" src="assets/images/titl-pap.png" alt="" width="24" height="24"> Оставьте отзыв на этот шаблон!</h3>
 
             <form action="">
               <div class="modal-form-col G-flex-column">
@@ -1716,13 +1716,13 @@
                   <div class="form-input">
                       <small>Выберите оценку</small>
                       <div class="select-rating G-align-center">
-                          <span>4</span>
-                          <ul>
-                              <li><i class="star-rounded"></i></li>
-                              <li><i class="star-rounded"></i></li>
-                              <li><i class="star-rounded"></i></li>
-                              <li><i class="star-rounded"></i></li>
-                              <li><i class="icon star-black"></i></li>
+                          <span id="rating-value">4</span>
+                          <ul id="star-list">
+                              <li data-value="1"><i class="icon star-rating"></i></li>
+                              <li data-value="2"><i class="icon star-rating"></i></li>
+                              <li data-value="3"><i class="icon star-rating"></i></li>
+                              <li data-value="4"><i class="icon star-rating"></i></li>
+                              <li data-value="5"><i class="icon star-rating star-rating-unset"></i></li>
                           </ul>
                       </div>
                   </div>

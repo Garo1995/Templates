@@ -264,3 +264,42 @@ $('.language-sub-all').on('click', function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const stars = document.querySelectorAll('#star-list li');
+const ratingValue = document.getElementById('rating-value');
+
+let currentRating = 4;
+updateStars(currentRating);
+
+stars.forEach(star => {
+  star.addEventListener('click', () => {
+    currentRating = parseInt(star.getAttribute('data-value'));
+    updateStars(currentRating);
+  });
+});
+
+function updateStars(rating) {
+  ratingValue.textContent = rating;
+  stars.forEach(star => {
+    const val = parseInt(star.getAttribute('data-value'));
+    const icon = star.querySelector('i');
+    if (val <= rating) {
+      icon.classList.remove('star-rating-unset');
+    } else {
+      icon.classList.add('star-rating-unset');
+    }
+  });
+}

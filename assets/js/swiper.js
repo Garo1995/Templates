@@ -29,7 +29,10 @@ let sampleSmSwiper = new Swiper(".sample-sm-slid", {
 let sampleBigSwiper = new Swiper(".sample-big-slid", {
   loop: true,
   spaceBetween: 10,
-
+  pagination: {
+    el: ".sample-pagination",
+    clickable: true,
+  },
   thumbs: {
     swiper: sampleSmSwiper,
   },
