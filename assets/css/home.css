@@ -2159,4 +2159,17 @@ strong {
     height: 22px;
     margin-bottom: -2px;
   }
+  .fonts-used .extended-tab-name{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .extended-tab .extended-tab-name{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .characterist-menu ul li a:hover{
+    border: 1px solid var(--border);
+  }
 }
